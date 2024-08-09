@@ -10,16 +10,19 @@
 <body>
     <section>
          <h1> Cadastrar meus dados</h1>
+         <form>
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" id="nome" class="cx"> <br>
+        <input id="nome" type="text" class="cx"> 
+        <br>
         <label for="email">E-mail:</label>
-        <input type="text" name="email" id="email" class="cx"><br>
+        <input id="email" type="email" class="cx">
+        <br>
         <label for="senha">Senha:</label>
-        <input type="password" name="password" id="senha" class="cx"><br>
-
-        <div>
-           <input type="button" value="Cadastrar" onclick="verificar()" class="button"> </br>
-        </div>
+        <input id="senha" type="password" class="cx">
+        <br>
+        <button type="submit" onclick="verificar()" class="button">Enviar</button> 
+        </br>
+        </form>
 
         <div id="res"> 
          Informe seus dados
